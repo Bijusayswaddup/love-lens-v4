@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Love Admin Dashboard 💌</title>
+    <link rel="stylesheet" href="css/pages/admin.css">
+</head>
+<body>
+    <div class="admin-header">
+        <h1>💖 Valentine Magic Dashboard</h1>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search users... 🔍">
+        </div>
+    </div>
+    
+    <div class="dashboard-container">
+        <div class="stats-container">
+            <div class="stat-card">
+                <div class="stat-icon">👥</div>
+                <div class="stat-content">
+                    <h3>Total Participants</h3>
+                    <p id="totalUsers">0</p>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">💘</div>
+                <div class="stat-content">
+                    <h3>Positive Responses</h3>
+                    <p id="positiveRate">0%</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="user-grid" id="userGrid"></div>
+    </div>
+
+    <script src="js/modules/storage.js"></script>
+    <script src="js/pages/admin.js"></script>
+</body>
+</html>
